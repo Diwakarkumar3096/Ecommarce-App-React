@@ -18,12 +18,12 @@ const Navbar = (props) => {
         </li>
         <li>Diwakar</li>
         <li>
-          <img src="https://cdn-icons-png.flaticon.com/512/1184/1184438.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/1184/1184438.png" alt=""/>
         </li>
         <li>
           {/* count total product */}
           <span className="totalproduct">{total}</span>
-          <img src="https://cdn-icons-png.flaticon.com/512/891/891407.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/891/891407.png" alt=""/>
         </li>
       </ul>
     </div>

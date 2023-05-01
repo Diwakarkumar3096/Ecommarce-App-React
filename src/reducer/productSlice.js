@@ -3,7 +3,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchProducts = createAsyncThunk("fetchProduct", async () => {
 //  fetch api call
   const res = await fetch(
-    "https://my-json-server.typicode.com/ravindrakumarratre6/ECOM/Products"
+    "https://my-json-server.typicode.com/Diwakarkumar3096/Ecommerce/products"
   );
   return res.json();
 });
